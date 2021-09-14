@@ -184,8 +184,6 @@ function ProductTable(props) {
   const orderedProducts =
     isAscending === true ? sortedProducts : sortedProducts.reverse();
 
-  console.log(orderedProducts);
-
   //=================================     Eduardo     =================================
 
   return (
